@@ -1,0 +1,30 @@
+@use "@/app/scss/variables" as *;
+
+header {
+  background-color: teal;
+  width: 100vw;
+  max-width: 100%;
+  height: 100px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10vw;
+
+  .logo {
+    color: $pink;
+    font-weight: bold;
+
+    &:hover {
+      color: blue;
+    }
+  }
+
+  nav {
+    a {
+      &:hover {
+        color: blue;
+      }
+    }
+  }
+}
